@@ -74,7 +74,6 @@ footer {
     left: 0;
     bottom: 0;
     position: fixed;
-    float: left;
     background-color: #66BFBF;
 }
 .right_line_cv {
@@ -83,7 +82,6 @@ footer {
     right: 0;
     bottom: 0;
     position: fixed;
-    float: right;
     background-color: #66BFBF;
 }
 @media
