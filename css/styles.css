@@ -33,7 +33,7 @@ footer {
 .intro {
     height: 300px;
     padding: 20px;
-    background-image: url("/images/iceland.jpg")
+    background-image: url("images/iceland.jpg")
 }
 .profile {
     padding: 10px 0 0 0;
@@ -87,7 +87,7 @@ footer {
     background-color: #66BFBF;
 }
 @media
-only screen and (max-width: 500px),
+only screen and (max-width: 730px),
 only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 {
     .left_line, .right_line, .left_line_cv, .right_line_cv {display:none}
