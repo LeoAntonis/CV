@@ -4,26 +4,22 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 
 }
-
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     margin: 100px auto 0px auto;
     font-size: 3.125rem;
     color: #66BFBF;
 }
-
 h2 {
      font-family: 'Dongle', sans-serif;
      font-size: 2.5rem;
      font-weight: normal;
      color: #66BFBF;
 }
-
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #00BFFF;
 }
-
 p {
     line-height: 2;
 }
@@ -33,15 +29,14 @@ footer {
     height: 50px;
     padding: 30px;
 }
-
 /************ CLASS SELECTORS *************/
 .intro {
     height: 300px;
     padding: 20px;
-    background-image: url("/images/iceland-g7eb0ca815_1920.jpg")
+    background-image: url("/images/iceland.jpg")
 }
 .profile {
-    margin-top: 20px;
+    padding: 10px 0 0 0;
 }
 .description{
     color: #40514E;
@@ -51,41 +46,80 @@ footer {
 .profile img {
     border-radius: 50%;
 }
-
 .dots{
     width: 10%;
-    border: 6px dotted #EAF6F6;
+    border: 6px dotted #4682B4;
     border-bottom: none;
-    margin: 100px auto 100px auto;
+    margin: 60px auto 60px auto;
 }
-
+.left_line {
+    width: 5%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #66BFBF;
+}
+.right_line {
+    width: 5%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #66BFBF;
+}
+.left_line_cv {
+    width: 5%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    float: left;
+    background-color: #66BFBF;
+}
+.right_line_cv {
+    width: 5%;
+    top:0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    float: right;
+    background-color: #66BFBF;
+}
+@media
+only screen and (max-width: 500px),
+only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
+    .left_line, .right_line, .left_line_cv, .right_line_cv {display:none}
+}
 .skill-row{
     width: 50%;
     height: 250px;
     margin:50px auto 50px auto;
     text-align:left;
     line-height: 2;
-
 }
-
 .code {
     width: 25%;
     float:left;
     margin-right: 30px;
+}
+.code-img {
+    width: 100%;
 }
 .puzzle {
     width: 25%;
     float: right;
     margin-left: 30px;
 }
+.puzzle-img {
+    width: 100%;
+}
 .tag1 {
-    clear: left;
     font-size: 10px;
 }
 
 .tag2 {
-    clear: right;
-    float: right;
     font-size: 10px;
 }
 
@@ -111,7 +145,6 @@ footer {
   border: solid #117060 2px;
   text-decoration: none;
 }
-
 .btn:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -121,22 +154,16 @@ footer {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
-
-
 .footer-link {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px 10px 20px;
     text-decoration: none;
 }
-
 .footer-link:hover {
     color: #EAF6F6;
 }
-
 .copyright {
     color: #EAF6F6;
     font-size: 0.75rem;
 }
-
-
