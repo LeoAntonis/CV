@@ -33,7 +33,7 @@ footer {
 .intro {
     height: 300px;
     padding: 20px;
-    background-image: url("images/iceland.jpg")
+    background-image: url("../images/iceland.jpg")
 }
 .profile {
     padding: 10px 0 0 0;
